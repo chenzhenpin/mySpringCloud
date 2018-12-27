@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: gateway
+server:
+  #port: ${port}
+  port: 8082
+eureka:
+  instance:
+    hostname: eurekagateway
+    instance-id: ${eureka.instance.hostname}:${server.port}
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      #defaultZone: http://eurekaregister:8081/eureka/ #,http://eurekaregister:8082/eureka/
+      defaultZone: http://118.126.104.144:8081/eureka/
+zuul:
+  #ignored-services: microservice-provider-user                        # 需要忽视的服务(配置后将不会被路由)
+  routes:
+    eurekaServer:                                                            # 可以随便写，在zuul上面唯一即可；当这里的值 = service-id时，service-id可以不写。
+      path: /f/**    # 想要映射到的路径，如不配置该项 将使用eurekaServer做前缀
+      service-id: service     # Eureka中的serviceId 也可以指定地址 zuul.routes.api-a-url.url=http://localhost:8080/
+    eurekaFeignClient:                                                            # 可以随便写，在zuul上面唯一即可；当这里的值 = service-id时，service-id可以不写。
+      path: /client/**              # 想要映射到的路径，如不配置该项 将使用eurekaFeignClient做前缀
+      service-id: feign-client   #为应用的 spring.application.name
+ribbon:
+  ReadTimeout: 60000 #只是它的超时是对请求连接建立之后的处理时间。
+  ConnectTimeout: 60000 #该参数用来设置路由转发请求的时候， 创建请求连接的超时时间。
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutinMilliseconds:   800000 #该 参 数可以用 来 设 置API 网 关中路 由 转 发 请 求的  HystrixCommand 执行超时时间
+

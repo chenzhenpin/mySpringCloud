@@ -1,0 +1,27 @@
+#本实例为高可用服务注册中心，启动两个实例注册中心互为注册
+server:
+  #port: ${port}                    # 指定该Eureka实例的端口
+  port: 8081
+spring:
+  application:
+    name: Register
+eureka:
+  instance:
+    hostname: eurekaRegister  # 指定该Eureka实例的主机名
+    prefer-ip-address: true
+    #ip-address: 118.126.104.144
+    instance-id: ${eureka.instance.hostname}:${server.port}
+  client:
+    #registerWithEureka: true #该应用为注册中心，是否向服务中心注册自己，因为为高可用服务，需向另一个实例注册自己。
+    registerWithEureka: false
+    #fetchRegistry: true    #是否检索服务，两个注册中心互为注册，所以要开启。
+    fetchRegistry: false
+#    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:${otherPort}/eureka/    #要注册到注册中心的地址
+  server:
+    enable-self-preservation: false #禁用自我保护模式
+
+
+
+# 参考文档：http://projects.spring.io/spring-cloud/docs/1.0.3/spring-cloud.html#_standalone_mode
+# 参考文档：http://my.oschina.net/buwei/blog/618756

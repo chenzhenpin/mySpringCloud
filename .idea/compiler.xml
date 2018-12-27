@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ace-admin" />
+        <module name="ace-auth-client" />
+        <module name="ace-auth-common" />
+        <module name="ace-auth-server" />
+        <module name="ace-center" />
+        <module name="ace-common" />
+        <module name="ace-gateway-v2" />
+        <module name="ace-generator" />
+        <module name="ace-interface" />
+        <module name="ace-monitor" />
+        <module name="ace-sidecar-client-demo" />
+        <module name="ace-sidecar-server" />
+        <module name="ace-tool" />
+        <module name="ace-trace" />
+        <module name="api-gateway" />
+        <module name="auth-center-api" />
+        <module name="auth-center-provider" />
+        <module name="auth-service" />
+        <module name="auth-spring-boot-autoconfigure" />
+        <module name="auth-spring-boot-starter" />
+        <module name="common" />
+        <module name="config" />
+        <module name="config-git" />
+        <module name="db-spring-boot-autoconfigure" />
+        <module name="db-spring-boot-samples" />
+        <module name="db-spring-boot-starter" />
+        <module name="gateway" />
+        <module name="main-data-api" />
+        <module name="main-data-client" />
+        <module name="main-data-provider" />
+        <module name="mc-service" />
+        <module name="microservice-api-gateway" />
+        <module name="microservice-config-client" />
+        <module name="microservice-config-client-eureka" />
+        <module name="microservice-config-server" />
+        <module name="microservice-config-server-eureka" />
+        <module name="microservice-consumer-movie-feign" />
+        <module name="microservice-consumer-movie-feign-with-hystrix" />
+        <module name="microservice-consumer-movie-feign-with-hystrix-stream" />
+        <module name="microservice-consumer-movie-ribbon" />
+        <module name="microservice-consumer-movie-ribbon-with-hystrix" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-hystrix-turbine" />
+        <module name="microservice-provider-user" />
+        <module name="monitor" />
+        <module name="monitor (1) (com.github.peng)" />
+        <module name="paascloud-common-base" />
+        <module name="paascloud-common-config" />
+        <module name="paascloud-common-core" />
+        <module name="paascloud-common-util" />
+        <module name="paascloud-common-zk" />
+        <module name="paascloud-discovery" />
+        <module name="paascloud-eureka" />
+        <module name="paascloud-gateway" />
+        <module name="paascloud-generator-mdc" />
+        <module name="paascloud-generator-omc" />
+        <module name="paascloud-generator-opc" />
+        <module name="paascloud-generator-tpc" />
+        <module name="paascloud-generator-uac" />
+        <module name="paascloud-monitor" />
+        <module name="paascloud-provider-mdc" />
+        <module name="paascloud-provider-mdc-api" />
+        <module name="paascloud-provider-omc" />
+        <module name="paascloud-provider-omc-api" />
+        <module name="paascloud-provider-opc" />
+        <module name="paascloud-provider-opc-api" />
+        <module name="paascloud-provider-sdk-api" />
+        <module name="paascloud-provider-tpc" />
+        <module name="paascloud-provider-tpc-api" />
+        <module name="paascloud-provider-uac" />
+        <module name="paascloud-provider-uac-api" />
+        <module name="paascloud-security-app" />
+        <module name="paascloud-security-core" />
+        <module name="paascloud-security-feign" />
+        <module name="paascloud-zipkin" />
+        <module name="registry" />
+        <module name="svca-service" />
+        <module name="svcb-service" />
+        <module name="zipkin" />
+        <module name="zipkin-db" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ace-admin" target="1.8" />
+      <module name="ace-auth" target="1.8" />
+      <module name="ace-auth-client" target="1.8" />
+      <module name="ace-auth-common" target="1.8" />
+      <module name="ace-auth-server" target="1.8" />
+      <module name="ace-center" target="1.8" />
+      <module name="ace-common" target="1.8" />
+      <module name="ace-control" target="1.8" />
+      <module name="ace-gate" target="1.8" />
+      <module name="ace-gateway-v2" target="1.8" />
+      <module name="ace-generator" target="1.7" />
+      <module name="ace-interface" target="1.8" />
+      <module name="ace-modules" target="1.8" />
+      <module name="ace-monitor" target="1.8" />
+      <module name="ace-security" target="1.8" />
+      <module name="ace-sidecar" target="1.8" />
+      <module name="ace-sidecar-client-demo" target="1.8" />
+      <module name="ace-sidecar-server" target="1.8" />
+      <module name="ace-tool" target="1.8" />
+      <module name="ace-trace" target="1.6" />
+      <module name="api-gateway" target="1.8" />
+      <module name="auth-center" target="1.8" />
+      <module name="auth-center-api" target="1.8" />
+      <module name="auth-center-provider" target="1.8" />
+      <module name="auth-service" target="1.8" />
+      <module name="auth-spring-boot-autoconfigure" target="1.8" />
+      <module name="auth-spring-boot-starter" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="config-git" target="1.8" />
+      <module name="db-mybatis-pagehelper" target="1.5" />
+      <module name="db-spring-boot-autoconfigure" target="1.8" />
+      <module name="db-spring-boot-samples" target="1.6" />
+      <module name="db-spring-boot-starter" target="1.5" />
+      <module name="gateway" target="1.8" />
+      <module name="main-data" target="1.8" />
+      <module name="main-data-api" target="1.8" />
+      <module name="main-data-client" target="1.8" />
+      <module name="main-data-provider" target="1.8" />
+      <module name="mc-service" target="1.8" />
+      <module name="microservice-api-gateway" target="1.8" />
+      <module name="microservice-config-client" target="1.8" />
+      <module name="microservice-config-client-eureka" target="1.8" />
+      <module name="microservice-config-server" target="1.8" />
+      <module name="microservice-config-server-eureka" target="1.8" />
+      <module name="microservice-consumer-movie-feign" target="1.8" />
+      <module name="microservice-consumer-movie-feign-with-hystrix" target="1.8" />
+      <module name="microservice-consumer-movie-feign-with-hystrix-stream" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-with-hystrix" target="1.8" />
+      <module name="microservice-discovery-eureka" target="1.8" />
+      <module name="microservice-hystrix-dashboard" target="1.8" />
+      <module name="microservice-hystrix-turbine" target="1.8" />
+      <module name="microservice-provider-user" target="1.8" />
+      <module name="monitor" target="1.8" />
+      <module name="monitor (1) (com.github.peng)" target="1.8" />
+      <module name="paascloud-common" target="1.8" />
+      <module name="paascloud-common-base" target="1.8" />
+      <module name="paascloud-common-config" target="1.8" />
+      <module name="paascloud-common-core" target="1.8" />
+      <module name="paascloud-common-util" target="1.8" />
+      <module name="paascloud-common-zk" target="1.8" />
+      <module name="paascloud-discovery" target="1.8" />
+      <module name="paascloud-eureka" target="1.8" />
+      <module name="paascloud-gateway" target="1.8" />
+      <module name="paascloud-generator" target="1.8" />
+      <module name="paascloud-generator-mdc" target="1.8" />
+      <module name="paascloud-generator-omc" target="1.8" />
+      <module name="paascloud-generator-opc" target="1.8" />
+      <module name="paascloud-generator-tpc" target="1.8" />
+      <module name="paascloud-generator-uac" target="1.8" />
+      <module name="paascloud-master" target="1.8" />
+      <module name="paascloud-monitor" target="1.8" />
+      <module name="paascloud-provider" target="1.8" />
+      <module name="paascloud-provider-api" target="1.8" />
+      <module name="paascloud-provider-mdc" target="1.8" />
+      <module name="paascloud-provider-mdc-api" target="1.8" />
+      <module name="paascloud-provider-omc" target="1.8" />
+      <module name="paascloud-provider-omc-api" target="1.8" />
+      <module name="paascloud-provider-opc" target="1.8" />
+      <module name="paascloud-provider-opc-api" target="1.8" />
+      <module name="paascloud-provider-sdk-api" target="1.8" />
+      <module name="paascloud-provider-tpc" target="1.8" />
+      <module name="paascloud-provider-tpc-api" target="1.8" />
+      <module name="paascloud-provider-uac" target="1.8" />
+      <module name="paascloud-provider-uac-api" target="1.8" />
+      <module name="paascloud-security-app" target="1.8" />
+      <module name="paascloud-security-core" target="1.8" />
+      <module name="paascloud-security-feign" target="1.8" />
+      <module name="paascloud-zipkin" target="1.8" />
+      <module name="registry" target="1.8" />
+      <module name="spring-boot-cloud" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
+      <module name="spring-cloud-microservice-study" target="1.8" />
+      <module name="svca-service" target="1.8" />
+      <module name="svcb-service" target="1.8" />
+      <module name="visul" target="1.8" />
+      <module name="zipkin" target="1.8" />
+      <module name="zipkin-db" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

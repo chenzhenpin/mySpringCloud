@@ -1,0 +1,27 @@
+server:
+  port: ${port}
+spring:
+  application:
+    name: feign-client
+#  rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: chenzhen
+#    password: 33
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eurekaregister:8081/eureka/,http://eurekaregister:8082/eureka/
+  instance:
+    hostname: eurekaFeignClient  # 指定该Eureka实例的主机名
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${eureka.instance.hostname}:${server.port}
+ribbon:
+  eureka:
+    enabled: true         # 开启负载均衡，默认为true。如果设置为false，Ribbon将不会从Eureka中获得服务列表，而是使用静态配置的服务列表。静态服务列表可使用：<client>.ribbon.listOfServers来指定。参考：http://projects.spring.io/spring-cloud/docs/1.0.3/spring-cloud.html#spring-cloud-ribbon-without-eureka
+
+#rabbitmqctl list_users
+#rabbitmqctl  set_permissions -p / chenzhen '.*' '.*' '.*' 设置权限
+### 参考：https://spring.io/guides/gs/client-side-load-balancing/

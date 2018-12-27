@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/ace-security" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paascloud-login-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paascloud-master" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-boot-cloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-cloud-base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/spring-cloud-study" vcs="Git" />
+  </component>
+</project>

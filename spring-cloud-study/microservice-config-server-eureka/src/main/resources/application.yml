@@ -1,0 +1,17 @@
+server:
+  port: 8050
+spring:
+  application:
+    name: microservice-config-server-eureka
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chenzhenping/spring-cloud-study
+          search-paths: config-repo
+          username: 1595347682@qq.com
+          password: 5656qada
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8281/eureka/

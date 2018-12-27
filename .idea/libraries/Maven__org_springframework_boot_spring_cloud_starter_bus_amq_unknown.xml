@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.boot:spring-cloud-starter-bus-amq:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-cloud-starter-bus-amq/unknown/spring-cloud-starter-bus-amq-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-cloud-starter-bus-amq/unknown/spring-cloud-starter-bus-amq-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-cloud-starter-bus-amq/unknown/spring-cloud-starter-bus-amq-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

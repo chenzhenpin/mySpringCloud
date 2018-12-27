@@ -1,0 +1,15 @@
+server:
+  port: ${port}
+spring:
+  application:
+    name: client
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eurekaregister:8081/eureka/,http://eurekaregister:8082/eureka/
+      #defaultZone: http://118.126.104.144:8281/eureka/,http://118.126.104.144:8282/eureka/
+  instance:
+    hostname: eurekaClient  # 指定该Eureka实例的主机名
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${eureka.instance.hostname}:${server.port}
